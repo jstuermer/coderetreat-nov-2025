@@ -1,0 +1,13 @@
+[project]
+name = "coderetreat-nov-2025"
+version = "0.1.0"
+description = "Conway's game of life"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.1",
+]
+
