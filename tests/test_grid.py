@@ -9,3 +9,10 @@ def test_create_grid() -> None:
     assert len(grid) == NUMBER_OF_ROWS
     for column in grid:
         assert len(column) == NUMBER_OF_COLUMNS
+
+def test_create_grid_with_cells_alive() -> None:
+    grid = create_grid(cells_alive=[(0,0)])
+
+
+
+
